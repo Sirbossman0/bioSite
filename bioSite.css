@@ -1,0 +1,98 @@
+.page1 {
+    background: rgba(0, 0, 139, .70);
+}
+
+.page2 {
+    background-image: url("./bioSiteImages/Flag.jpg");
+    background-size: cover;
+    /*./bioSiteImages/*/
+}
+
+.page3 {
+    background-image: url("./bioSiteImages/starwars.jpg");
+}
+
+h1 {
+    text-align: center;
+    padding-top: 10%;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 10%;
+    color: white;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: 8px;
+    margin: 0 10% 0;
+}
+
+#image-gallery {
+    margin-top: 5%;
+}
+
+.portrait {
+    border: 1px solid black;
+    margin: 5% 20% 0;
+}
+
+.image1 {
+    border: 1px solid black;
+}
+
+.image2 {
+    border: 1px solid black;
+}
+
+.image3 {
+    border: 1px solid black;
+}
+
+figure {
+    text-align: center;
+}
+
+figcaption {
+    font-style: italic;
+    font-size: 1em;
+    color: white;
+}
+
+p.intro {
+    text-align: center;
+    color: gray;
+}
+
+p {
+    text-align: center;
+    color: gray;
+}
+
+.deepdive {
+    text-align: center;
+    margin-top: 20%;
+    padding-bottom: 10%;
+}
+
+.land {
+    margin-top: 20%;
+    float: right;
+    padding-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+a:visited {
+    color:blueviolet;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: orange;
+}
