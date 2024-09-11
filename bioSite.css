@@ -12,15 +12,27 @@
     background-image: url("./bioSiteImages/starwars.jpg");
 }
 
+#navbar {
+    overflow: hidden;
+    background-color: gray;
+    border-bottom: solid 15px darkblue;
+    padding-left: 10%;
+    font-size: 1.15em;
+}
+
 h1 {
     text-align: center;
-    padding-top: 10%;
+    padding-top: 7%;
+    padding-bottom: 3%;
+    font-size: 4em;
 }
 
 h2 {
     text-align: center;
-    margin-top: 10%;
+    margin-top: 8%;
+    padding-bottom: 1%;
     color: white;
+    font-size: 4em;
 }
 
 .grid-container {
@@ -57,18 +69,34 @@ figure {
 
 figcaption {
     font-style: italic;
-    font-size: 1em;
+    font-size: 1.15em;
     color: white;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.landpic {
+    background-color: rgba(0, 0, 0, 0);
 }
 
 p.intro {
     text-align: center;
     color: gray;
+    font-size: 1.25em;
+    padding: 2% 1% 1%;
+    line-height: 1.6em;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin: 1% 15% 0%;
 }
 
 p {
     text-align: center;
     color: gray;
+    font-size: 1.25em;
+    padding: 10px 1%;
+    line-height: 1.6em;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin: 0% 15% 0%;
+
 }
 
 .deepdive {
@@ -77,15 +105,17 @@ p {
     padding-bottom: 10%;
 }
 
-.land {
+.footer {
     margin-top: 20%;
     float: right;
     padding-bottom: 20px;
+    padding-right: 2%;
+    font-size: 1.25em;
 }
 
 a {
     text-decoration: none;
-    color: blue;
+    color: cornflowerblue;
 }
 
 a:visited {
@@ -95,4 +125,18 @@ a:visited {
 a:hover {
     text-decoration: underline;
     color: orange;
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 50px;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    background-color: dodgerblue;
+    color: black;
 }
