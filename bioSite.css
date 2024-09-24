@@ -9,12 +9,12 @@
 }
 
 .page3 {
-    background-image: url("./bioSiteImages/starwars.jpg");
+    background-image: url("./bioSiteImages/starwars.png");
 }
 
 #navbar {
     overflow: hidden;
-    background-color: gray;
+    background-color: dimgray;
     border-bottom: solid 15px darkblue;
     padding-left: 10%;
     font-size: 1.15em;
@@ -22,17 +22,21 @@
 
 h1 {
     text-align: center;
-    padding-top: 7%;
+    padding-top: 5%;
     padding-bottom: 3%;
     font-size: 4em;
 }
 
 h2 {
     text-align: center;
-    margin-top: 8%;
+    margin-top: 7%;
     padding-bottom: 1%;
     color: white;
     font-size: 4em;
+}
+
+h3 {
+    margin-top: 3%;
 }
 
 .grid-container {
@@ -48,7 +52,7 @@ h2 {
 
 .portrait {
     border: 1px solid black;
-    margin: 5% 20% 0;
+    margin: 2% 20% 0;
 }
 
 .image1 {
@@ -80,41 +84,33 @@ figcaption {
 
 p.intro {
     text-align: center;
-    color: gray;
+    color: white;
     font-size: 1.25em;
     padding: 2% 1% 1%;
     line-height: 1.6em;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.9);
     margin: 1% 15% 0%;
 }
 
 p {
     text-align: center;
-    color: gray;
+    color: white;
     font-size: 1.25em;
     padding: 10px 1%;
     line-height: 1.6em;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.9);
     margin: 0% 15% 0%;
 
 }
 
 .footer {
     margin-top: 20%;
-    float: right;
-    padding-bottom: 20px;
-    padding-right: 2%;
-    font-size: 1.25em;
-}
-
-#footer {
-    margin-top: 20%;
     padding-bottom: 20px;
     padding-right: 2%;
     font-size: 1.25em;
     color: white;
     overflow: hidden;
-    background-color: gray;
+    background-color: dimgray;
     padding-left: 10px;
     padding-top: 5px;
     text-align: left;
